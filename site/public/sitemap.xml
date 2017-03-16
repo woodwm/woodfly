@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/post/second/</loc>
+    <loc>https://www.woodfly.ml/2016/09/09/second/</loc>
     <lastmod>2016-09-09T10:24:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/first/</loc>
+    <loc>https://www.woodfly.ml/2016/09/09/first-change/</loc>
     <lastmod>2016-09-09T10:24:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://www.woodfly.ml/about/</loc>
     <lastmod>2016-09-09T10:15:23-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://www.woodfly.ml/</loc>
     <lastmod>2016-09-09T10:24:16-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://www.woodfly.ml/post/</loc>
     <lastmod>2016-09-09T10:24:16-04:00</lastmod>
     <priority>0</priority>
   </url>

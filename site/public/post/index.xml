@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Strata</title>
-    <link>/post/index.xml</link>
-    <description>Recent content in Posts on Strata</description>
+    <title>Posts on Lithium Theme</title>
+    <link>https://www.woodfly.ml/post/index.xml</link>
+    <description>Recent content in Posts on Lithium Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Sep 2016 10:24:16 -0400</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.woodfly.ml/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>second</title>
-      <link>/post/second/</link>
+      <link>https://www.woodfly.ml/2016/09/09/second/</link>
       <pubDate>Fri, 09 Sep 2016 10:24:16 -0400</pubDate>
       
-      <guid>/post/second/</guid>
+      <guid>https://www.woodfly.ml/2016/09/09/second/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>first</title>
-      <link>/post/first/</link>
+      <title>first change</title>
+      <link>https://www.woodfly.ml/2016/09/09/first-change/</link>
       <pubDate>Fri, 09 Sep 2016 10:24:15 -0400</pubDate>
       
-      <guid>/post/first/</guid>
-      <description></description>
+      <guid>https://www.woodfly.ml/2016/09/09/first-change/</guid>
+      <description>&lt;p&gt;See how it will work.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
