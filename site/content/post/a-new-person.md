@@ -1,7 +1,6 @@
 +++
 categories = ""
 date = "2017-03-18T12:51:08Z"
-draft = true
 tags = ""
 title = "记录最近遇上的一个人"
 
