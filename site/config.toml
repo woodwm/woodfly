@@ -1,12 +1,12 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Lithium Theme"
+languageCode = "zh-CN"
+title = "A place for wood"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "woodhexo"
 
 [permalinks]
-    post = "/:year/:month/:day/:title/"
+    post = "/:year/:month/:title/"
     page = "/:title/"
 
 [[menu.main]]
