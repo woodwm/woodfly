@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2017/03/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6zotero%E5%B8%B8%E7%94%A8%E8%AE%BE%E7%BD%AE/</loc>
+    <lastmod>2017-03-18T17:14:03+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/03/%E8%AE%B0%E5%BD%95%E6%9C%80%E8%BF%91%E9%81%87%E4%B8%8A%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BA%BA/</loc>
     <lastmod>2017-03-18T12:51:08+00:00</lastmod>
   </url>
@@ -23,19 +28,19 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2017-03-18T12:51:08+00:00</lastmod>
+    <lastmod>2017-03-18T17:14:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2017-03-18T12:51:08+00:00</lastmod>
+    <lastmod>2017-03-18T17:14:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-03-18T12:51:08+00:00</lastmod>
+    <lastmod>2017-03-18T17:14:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,7 +51,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-03-18T12:51:08+00:00</lastmod>
+    <lastmod>2017-03-18T17:14:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
