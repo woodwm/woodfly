@@ -1,4 +1,4 @@
-baseurl = "https://www.woodfly.ml"
+baseurl = "/"
 languageCode = "en-us"
 title = "Lithium Theme"
 theme = "hugo-lithium-theme"
