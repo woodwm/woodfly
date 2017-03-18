@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lithium Theme</title>
+    <title>A place for wood</title>
     <link>/index.xml</link>
-    <description>Recent content on Lithium Theme</description>
+    <description>Recent content on A place for wood</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 09 Sep 2016 10:24:16 -0400</lastBuildDate>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 18 Mar 2017 12:51:08 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>记录最近遇上的一个人</title>
+      <link>/2017/03/%E8%AE%B0%E5%BD%95%E6%9C%80%E8%BF%91%E9%81%87%E4%B8%8A%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BA%BA/</link>
+      <pubDate>Sat, 18 Mar 2017 12:51:08 +0000</pubDate>
+      
+      <guid>/2017/03/%E8%AE%B0%E5%BD%95%E6%9C%80%E8%BF%91%E9%81%87%E4%B8%8A%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BA%BA/</guid>
+      <description>&lt;p&gt;最近发生的一切都很奇妙，想在这里记录下遇到的这个人。&lt;/p&gt;
+
+&lt;p&gt;如果用一个词来形容的话，我觉得这个人就是&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>second</title>
-      <link>/2016/09/09/second/</link>
+      <link>/2016/09/second/</link>
       <pubDate>Fri, 09 Sep 2016 10:24:16 -0400</pubDate>
       
-      <guid>/2016/09/09/second/</guid>
+      <guid>/2016/09/second/</guid>
       <description></description>
     </item>
     
     <item>
       <title>first change</title>
-      <link>/2016/09/09/first-change/</link>
+      <link>/2016/09/first-change/</link>
       <pubDate>Fri, 09 Sep 2016 10:24:15 -0400</pubDate>
       
-      <guid>/2016/09/09/first-change/</guid>
+      <guid>/2016/09/first-change/</guid>
       <description>&lt;p&gt;See how it will work.&lt;/p&gt;
 </description>
     </item>
@@ -34,9 +46,11 @@
       <pubDate>Fri, 09 Sep 2016 10:15:23 -0400</pubDate>
       
       <guid>/about/</guid>
-      <description>
+      <description>&lt;p&gt;Finally, I find a new place to put my stuff. &lt;/p&gt;
 
-&lt;h2 id=&#34;this-is-where-our-page-markdown-content-lives&#34;&gt;This is where our page Markdown content lives.&lt;/h2&gt;
+&lt;p&gt;我已经不知道这是我第几次更换博客了，经历了所有写个人博客该经历的。目前这个还算满意，是基于Github+netlify+forestry，可以在线更新基于hugo的博客，希望能坚持下去。&lt;/p&gt;
+
+&lt;p&gt;加油！&lt;/p&gt;
 </description>
     </item>
     

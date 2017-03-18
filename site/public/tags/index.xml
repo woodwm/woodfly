@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on A place for wood</title>
-    <link>/post/index.xml</link>
-    <description>Recent content in Posts on A place for wood</description>
+    <title>A place for wood</title>
+    <link>/tags/index.xml</link>
+    <description>Recent content on A place for wood</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Mar 2017 12:51:08 +0000</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>记录最近遇上的一个人</title>
@@ -18,25 +17,6 @@
       <description>&lt;p&gt;最近发生的一切都很奇妙，想在这里记录下遇到的这个人。&lt;/p&gt;
 
 &lt;p&gt;如果用一个词来形容的话，我觉得这个人就是&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>second</title>
-      <link>/2016/09/second/</link>
-      <pubDate>Fri, 09 Sep 2016 10:24:16 -0400</pubDate>
-      
-      <guid>/2016/09/second/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>first change</title>
-      <link>/2016/09/first-change/</link>
-      <pubDate>Fri, 09 Sep 2016 10:24:15 -0400</pubDate>
-      
-      <guid>/2016/09/first-change/</guid>
-      <description>&lt;p&gt;See how it will work.&lt;/p&gt;
 </description>
     </item>
     
