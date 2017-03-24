@@ -55,4 +55,16 @@
     <priority>0</priority>
   </url>
   
+  <url>
+    <loc>/categories/%E7%94%9F%E6%B4%BB%E7%BA%AA%E5%AE%9E/</loc>
+    <lastmod>2017-03-18T12:51:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2017-03-18T17:14:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
 </urlset>

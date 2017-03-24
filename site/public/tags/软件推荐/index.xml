@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>软件推荐 on A place for wood</title>
+    <link>/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/index.xml</link>
+    <description>Recent content in 软件推荐 on A place for wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <atom:link href="/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>文献管理软件Zotero常用设置</title>
+      <link>/2017/03/zotero-settings/</link>
+      <pubDate>Sat, 18 Mar 2017 17:14:03 +0000</pubDate>
+      
+      <guid>/2017/03/zotero-settings/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt;是我目前最喜欢的一款免费开源的文献管理软件，有Firefox插件版，也有Windows的独立版，据官方论坛介绍，以后会有其他平台的独立版出来。&lt;/p&gt;
+
+&lt;h2 id=&#34;必备插件&#34;&gt;必备插件&lt;/h2&gt;
+
+&lt;p&gt;Zotero Better Bib(La)Tex&lt;/p&gt;
+
+&lt;p&gt;Zotero Scholar Citations&lt;/p&gt;
+
+&lt;p&gt;ZotFile&lt;/p&gt;
+
+&lt;h2 id=&#34;zotero设置&#34;&gt;Zotero设置&lt;/h2&gt;
+
+&lt;p&gt;General：取消Automatically take snapshots when creating items from web pages&lt;/p&gt;
+
+&lt;p&gt;取消Automatically tag items with keywords and subject headings&lt;/p&gt;
+
+&lt;p&gt;Sync: 中File Syncing选择WebDAV, URL: &lt;a href=&#34;https://dav.box.com/dav&#34;&gt;https://dav.box.com/dav&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Better BibTex设置：Citation Key format [auth:lower][year][Title:skipwords:select,1,1]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
