@@ -1,9 +1,9 @@
 +++
-categories = ""
+title = "记录最近遇上的一个人"
 date = "2017-03-18T12:51:08Z"
 tags = ""
-title = "记录最近遇上的一个人"
-
+categories = ""
+slug = "a-new-stranger"
 +++
 很最近发生的一切都很奇妙，想在这里记录下遇到的这个人。
 
