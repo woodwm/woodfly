@@ -6,7 +6,7 @@ googleAnalytics = "UA-96029152-1"
 disqusShortname = "woodhexo"
 
 [permalinks]
-    post = "/:year/:month/:title/"
+    post = "/:year/:month/:slug/"
     page = "/:title/"
 
 [[menu.main]]
