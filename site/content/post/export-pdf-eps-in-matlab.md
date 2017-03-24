@@ -1,8 +1,10 @@
 +++
 categories = ""
-date = "2017-03-18T17:23:16+00:00"
+date = "2017-03-18T17:23:16Z"
+slug = "plotting-with-matlab"
 tags = ""
 title = "Matlab作图生成pdf, eps，插入Latex"
+type = "myway"
 
 +++
 对于使用Latex和Matlab的人来说，经常需要面对一个问题，如果保存Matlab的图片，并插入到Latex中。最好选择矢量图形格式，如果用Latex渲染，就用eps格式，用pdflatex渲染，就用pdf格式。
