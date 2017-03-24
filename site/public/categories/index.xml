@@ -10,10 +10,10 @@
     
     <item>
       <title>Matlab作图生成pdf, eps，插入Latex</title>
-      <link>/2017/03/matlab%E4%BD%9C%E5%9B%BE%E7%94%9F%E6%88%90pdf-eps%E6%8F%92%E5%85%A5latex/</link>
+      <link>/2017/03/plotting-with-matlab/</link>
       <pubDate>Sat, 18 Mar 2017 17:23:16 +0000</pubDate>
       
-      <guid>/2017/03/matlab%E4%BD%9C%E5%9B%BE%E7%94%9F%E6%88%90pdf-eps%E6%8F%92%E5%85%A5latex/</guid>
+      <guid>/2017/03/plotting-with-matlab/</guid>
       <description>&lt;p&gt;对于使用Latex和Matlab的人来说，经常需要面对一个问题，如果保存Matlab的图片，并插入到Latex中。最好选择矢量图形格式，如果用Latex渲染，就用eps格式，用pdflatex渲染，就用pdf格式。&lt;/p&gt;
 
 &lt;p&gt;在Matlab的作图窗口中，直接用save as命令，实际上相当于截屏，生成的eps、pdf文件比例不对，而且会产生不必要的边距。&lt;/p&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>文献管理软件Zotero常用设置</title>
-      <link>/2017/03/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6zotero%E5%B8%B8%E7%94%A8%E8%AE%BE%E7%BD%AE/</link>
+      <link>/2017/03/zotero-settings/</link>
       <pubDate>Sat, 18 Mar 2017 17:14:03 +0000</pubDate>
       
-      <guid>/2017/03/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E8%BD%AF%E4%BB%B6zotero%E5%B8%B8%E7%94%A8%E8%AE%BE%E7%BD%AE/</guid>
+      <guid>/2017/03/zotero-settings/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt;是我目前最喜欢的一款免费开源的文献管理软件，有Firefox插件版，也有Windows的独立版，据官方论坛介绍，以后会有其他平台的独立版出来。&lt;/p&gt;
@@ -60,10 +60,10 @@
     
     <item>
       <title>记录最近遇上的一个人</title>
-      <link>/2017/03/%E8%AE%B0%E5%BD%95%E6%9C%80%E8%BF%91%E9%81%87%E4%B8%8A%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BA%BA/</link>
+      <link>/2017/03/a-new-stranger/</link>
       <pubDate>Sat, 18 Mar 2017 12:51:08 +0000</pubDate>
       
-      <guid>/2017/03/%E8%AE%B0%E5%BD%95%E6%9C%80%E8%BF%91%E9%81%87%E4%B8%8A%E7%9A%84%E4%B8%80%E4%B8%AA%E4%BA%BA/</guid>
+      <guid>/2017/03/a-new-stranger/</guid>
       <description>&lt;p&gt;很最近发生的一切都很奇妙，想在这里记录下遇到的这个人。&lt;/p&gt;
 
 &lt;p&gt;如果用一个词来形容的话，我觉得这个人就是&amp;rdquo;神经病&amp;rdquo;。一切想来都有点莫名其妙。莫名其妙的知道我是金牛座，就说金牛座的都是渣男，然后跟我讲一堆她的前任男友“约炮”的故事。我很惊讶她居然能够把这种事情跟我一个刚见面没多久的人讲，一般人都会对这种事情很害羞。果然是一个不一样的女子。然后我把手机给她，让她跟我一个在学生会的朋友讲这事，把她笑得不行。后来我才知道原来上次yao跟另一个人讲怎么用Endnote，当时就是她。然后我就又介绍了一遍Zotero怎么用，怎么设置。当然这又有后面很多，帮着解决如何设置便携版，换一台电脑后怎么用。&lt;/p&gt;
