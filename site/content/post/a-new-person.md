@@ -1,9 +1,11 @@
 +++
-title = "记录最近遇上的一个人"
+categories = ["生活纪实"]
 date = "2017-03-18T12:51:08Z"
-tags = ""
-categories = ""
 slug = "a-new-stranger"
+tags = ""
+title = "记录最近遇上的一个人"
+type = "myway"
+
 +++
 很最近发生的一切都很奇妙，想在这里记录下遇到的这个人。
 
