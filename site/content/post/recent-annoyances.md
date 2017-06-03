@@ -1,7 +1,7 @@
 +++
 categories = []
 date = "2017-06-03T13:51:47+00:00"
-slug = ""
+slug = "recent-annoyances"
 tags = []
 title = "最近发生的一些事"
 
