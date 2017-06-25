@@ -6,8 +6,44 @@
     <description>Recent content in Posts on A place for wood</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 18 Mar 2017 17:23:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jun 2017 22:24:22 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Matlab使用技巧（都是血汗的积累）</title>
+      <link>/2017/06/matlab-tricks/</link>
+      <pubDate>Mon, 19 Jun 2017 22:24:22 +0000</pubDate>
+      
+      <guid>/2017/06/matlab-tricks/</guid>
+      <description>
+
+&lt;h2 id=&#34;1-动态更改文件名&#34;&gt;1. 动态更改文件名&lt;/h2&gt;
+
+&lt;p&gt;如，par1 = 1.0，par2 = 2.0，得到的结果为数组arr_t则可设置输出文件名&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;filenm = [&#39;ex_p1_&#39; num2str(par1) &#39;_p2&#39; num2str(par2) &#39;.mat&#39;];
+save(filenm,   &#39;arr_t&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;##&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>最近发生的一些事</title>
+      <link>/2017/06/recent-annoyances/</link>
+      <pubDate>Sat, 03 Jun 2017 13:51:47 +0000</pubDate>
+      
+      <guid>/2017/06/recent-annoyances/</guid>
+      <description>&lt;p&gt;好久没来写点什么了，时间还是一如既往地飞快过去。我曾经想通过记录什么来让他走慢点，不过总是没法坚持下来。&lt;/p&gt;
+
+&lt;p&gt;最近莫名有蛮多烦心事。研究上还是那么原地兜圈；牙齿时好时坏，最近还经常出血；爸妈的微信也没回；袁佳的微信也没回；今天又多了一件烦心事。&lt;/p&gt;
+
+&lt;p&gt;其实还是因为微信没回。本来只是不想去吃饭，就暂时没回，想着到学校再回，结果没想到事情发展太快，在半个小时里就结束了。该说什么呢，两个人差别很大。&lt;/p&gt;
+
+&lt;p&gt;静下心来，耐心做事情吧。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Matlab作图生成pdf, eps，插入Latex</title>

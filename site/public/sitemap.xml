@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2017/06/matlab-tricks/</loc>
+    <lastmod>2017-06-19T22:24:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/06/recent-annoyances/</loc>
+    <lastmod>2017-06-03T13:51:47+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/03/plotting-with-matlab/</loc>
     <lastmod>2017-03-18T17:23:16+00:00</lastmod>
   </url>
@@ -35,7 +45,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-03-18T17:23:16+00:00</lastmod>
+    <lastmod>2017-06-19T22:24:22+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -45,8 +55,14 @@
   </url>
   
   <url>
+    <loc>/tags/matlab/</loc>
+    <lastmod>2017-06-19T22:24:22+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
-    <lastmod>2017-03-18T17:23:16+00:00</lastmod>
+    <lastmod>2017-06-19T22:24:22+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,6 +1,6 @@
 +++
 categories = []
-date = "2017-06-19T22:24:22+00:00"
+date = "2017-06-19T22:24:22Z"
 slug = "matlab-tricks"
 tags = ["Matlab"]
 title = "Matlab使用技巧（都是血汗的积累）"
@@ -14,4 +14,12 @@ title = "Matlab使用技巧（都是血汗的积累）"
 filenm = ['ex_p1_' num2str(par1) '_p2' num2str(par2) '.mat'];
 save(filenm,   'arr_t');
 ```
-##
+## 2. 修改循环变量（调试技巧）
+Matlab中一旦进入for循环后，无法自行修改循环变量i的值。即使修改了，在下一步循环中，循环变量还是会改回去。
+
+```
+for i = 1:3
+    i = 1;
+end
+```
+每一步中i的值分别为1,2,3.

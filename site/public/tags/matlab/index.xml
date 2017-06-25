@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matlab on A place for wood</title>
+    <link>/tags/matlab/index.xml</link>
+    <description>Recent content in Matlab on A place for wood</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <atom:link href="/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Matlab使用技巧（都是血汗的积累）</title>
+      <link>/2017/06/matlab-tricks/</link>
+      <pubDate>Mon, 19 Jun 2017 22:24:22 +0000</pubDate>
+      
+      <guid>/2017/06/matlab-tricks/</guid>
+      <description>
+
+&lt;h2 id=&#34;1-动态更改文件名&#34;&gt;1. 动态更改文件名&lt;/h2&gt;
+
+&lt;p&gt;如，par1 = 1.0，par2 = 2.0，得到的结果为数组arr_t则可设置输出文件名&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;filenm = [&#39;ex_p1_&#39; num2str(par1) &#39;_p2&#39; num2str(par2) &#39;.mat&#39;];
+save(filenm,   &#39;arr_t&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;##&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.19" />
+
+
+<title>Matlab使用技巧（都是血汗的积累） - A place for wood</title>
+<meta property="og:title" content="Matlab使用技巧（都是血汗的积累） - A place for wood">
+
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png" 
+         width="50" 
+         height="50" 
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="">GitHub</a></li>
+    
+    <li><a href="">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Matlab使用技巧（都是血汗的积累）</h1>
+
+    
+    <span class="article-date">June 19, 2017</span>
+    
+
+    <div class="article-content">
+      
+
+<h2 id="1-动态更改文件名">1. 动态更改文件名</h2>
+
+<p>如，par1 = 1.0，par2 = 2.0，得到的结果为数组arr_t则可设置输出文件名</p>
+
+<pre><code class="language-matlab">filenm = ['ex_p1_' num2str(par1) '_p2' num2str(par2) '.mat'];
+save(filenm,   'arr_t');
+</code></pre>
+
+<p>##</p>
+
+    </div>
+  </article>
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'woodhexo';
+    var disqus_identifier = '\/2017\/06\/matlab-tricks\/';
+    var disqus_title = 'Matlab使用技巧（都是血汗的积累）';
+    var disqus_url = '\/2017\/06\/matlab-tricks\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-96029152-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+
