@@ -14,11 +14,13 @@ title = "科学计算有用的Python packages"
 
 * Numpy (document, github)
 
-* SciPy
+* SciPy (document, github)
+* Pandas (document, github)
 
 ## Optimization
 
 * CVXPY ([document](http://www.cvxpy.org/en/latest/tutorial/index.html), [github](https://github.com/cvxgrp/cvxpy))
 
 * ScipyDIRECT (document, [github](https://github.com/andim/scipydirect))
+
 * Pyomo ([document](http://www.pyomo.org/documentation), [github](https://github.com/Pyomo/pyomo))
