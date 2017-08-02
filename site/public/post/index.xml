@@ -6,8 +6,99 @@
     <description>Recent content in Posts on A place for wood</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 19 Jun 2017 22:24:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Aug 2017 16:06:50 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Latex相关</title>
+      <link>/2017/08/latex%E7%9B%B8%E5%85%B3/</link>
+      <pubDate>Wed, 02 Aug 2017 16:06:50 +0000</pubDate>
+      
+      <guid>/2017/08/latex%E7%9B%B8%E5%85%B3/</guid>
+      <description>
+
+&lt;p&gt;Latex相关的代码块，一不小心就容易忘掉，虽然还是能通过搜索找到合适的解决方法，还是自己总结一下自己常用的比较好。&lt;/p&gt;
+
+&lt;h1 id=&#34;1&#34;&gt;1.&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;/uploads/2017/08/02/K7prR.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;\documentclass{article}
+\usepackage{subcaption}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{figure}
+  \begin{subfigure}{\linewidth}
+  \includegraphics[width=.3\linewidth]{example-image-a}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-a}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-a}
+  \caption{}
+  \end{subfigure}\par\medskip
+  \begin{subfigure}{\linewidth}
+  \includegraphics[width=.3\linewidth]{example-image-b}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-b}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-b}
+  \caption{}
+  \end{subfigure}\par\medskip
+  \begin{subfigure}{\linewidth}
+  \includegraphics[width=.3\linewidth]{example-image-c}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-c}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-c}
+  \caption{}
+  \end{subfigure}
+  \caption{Some grouped images}
+\end{figure}
+
+\end{document}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>科学计算有用的Python packages</title>
+      <link>/2017/07/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%89%E7%94%A8%E7%9A%84python-packages/</link>
+      <pubDate>Mon, 17 Jul 2017 00:46:01 +0000</pubDate>
+      
+      <guid>/2017/07/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%89%E7%94%A8%E7%9A%84python-packages/</guid>
+      <description>
+
+&lt;h2 id=&#34;basic&#34;&gt;Basic&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Matplotlib (&lt;a href=&#34;https://matplotlib.org/contents.html&#34;&gt;document&lt;/a&gt;, &lt;a href=&#34;https://github.com/matplotlib/matplotlib&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Numpy (document, github)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;SciPy (document, github)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pandas (document, github)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;optimization&#34;&gt;Optimization&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;CVXPY (&lt;a href=&#34;http://www.cvxpy.org/en/latest/tutorial/index.html&#34;&gt;document&lt;/a&gt;, &lt;a href=&#34;https://github.com/cvxgrp/cvxpy&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ScipyDIRECT (document, &lt;a href=&#34;https://github.com/andim/scipydirect&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pyomo (&lt;a href=&#34;http://www.pyomo.org/documentation&#34;&gt;document&lt;/a&gt;, &lt;a href=&#34;https://github.com/Pyomo/pyomo&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>有趣的网站，也可能有用哦</title>
+      <link>/2017/06/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%BD%91%E7%AB%99%E4%B9%9F%E5%8F%AF%E8%83%BD%E6%9C%89%E7%94%A8%E5%93%A6/</link>
+      <pubDate>Mon, 26 Jun 2017 00:52:42 +0000</pubDate>
+      
+      <guid>/2017/06/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%BD%91%E7%AB%99%E4%B9%9F%E5%8F%AF%E8%83%BD%E6%9C%89%E7%94%A8%E5%93%A6/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://clippingmagic.com&#34;&gt;https://clippingmagic.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;去除图片背景，智能抠图&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Matlab使用技巧（都是血汗的积累）</title>
@@ -25,7 +116,23 @@
 save(filenm,   &#39;arr_t&#39;);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;##&lt;/p&gt;
+&lt;h2 id=&#34;2-修改循环变量-调试技巧&#34;&gt;2. 修改循环变量（调试技巧）&lt;/h2&gt;
+
+&lt;p&gt;Matlab中一旦进入for循环后，无法自行修改循环变量i的值。即使修改了，在下一步循环中，循环变量还是会改回去。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for i = 1:3
+    i = 1;
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;每一步中i的值分别为1,2,3.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-使用相对地址导入文件&#34;&gt;3. 使用相对地址导入文件&lt;/h2&gt;
+
+&lt;p&gt;使用&lt;code&gt;..&lt;/code&gt;表示包含当前文件夹的上一级文件夹，所以&lt;code&gt;Folder1&lt;/code&gt;是当前文件夹，&lt;code&gt;Folder2&lt;/code&gt;是当前文件夹的下一级文件夹。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;load(fullfile(&#39;..&#39;, &#39;Folder1&#39;, &#39;Folder2&#39;, files.name));
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

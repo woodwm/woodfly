@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.19" />
 
 
-<title>Matlab使用技巧（都是血汗的积累） - A place for wood</title>
-<meta property="og:title" content="Matlab使用技巧（都是血汗的积累） - A place for wood">
+<title>科学计算有用的Python packages - A place for wood</title>
+<meta property="og:title" content="科学计算有用的Python packages - A place for wood">
 
 
 
@@ -54,40 +54,36 @@
     <span class="article-duration">1 min read</span>
     
 
-    <h1 class="article-title">Matlab使用技巧（都是血汗的积累）</h1>
+    <h1 class="article-title">科学计算有用的Python packages</h1>
 
     
-    <span class="article-date">June 19, 2017</span>
+    <span class="article-date">July 17, 2017</span>
     
 
     <div class="article-content">
       
 
-<h2 id="1-动态更改文件名">1. 动态更改文件名</h2>
+<h2 id="basic">Basic</h2>
 
-<p>如，par1 = 1.0，par2 = 2.0，得到的结果为数组arr_t则可设置输出文件名</p>
+<ul>
+<li><p>Matplotlib (<a href="https://matplotlib.org/contents.html">document</a>, <a href="https://github.com/matplotlib/matplotlib">github</a>)</p></li>
 
-<pre><code class="language-matlab">filenm = ['ex_p1_' num2str(par1) '_p2' num2str(par2) '.mat'];
-save(filenm,   'arr_t');
-</code></pre>
+<li><p>Numpy (document, github)</p></li>
 
-<h2 id="2-修改循环变量-调试技巧">2. 修改循环变量（调试技巧）</h2>
+<li><p>SciPy (document, github)</p></li>
 
-<p>Matlab中一旦进入for循环后，无法自行修改循环变量i的值。即使修改了，在下一步循环中，循环变量还是会改回去。</p>
+<li><p>Pandas (document, github)</p></li>
+</ul>
 
-<pre><code>for i = 1:3
-    i = 1;
-end
-</code></pre>
+<h2 id="optimization">Optimization</h2>
 
-<p>每一步中i的值分别为1,2,3.</p>
+<ul>
+<li><p>CVXPY (<a href="http://www.cvxpy.org/en/latest/tutorial/index.html">document</a>, <a href="https://github.com/cvxgrp/cvxpy">github</a>)</p></li>
 
-<h2 id="3-使用相对地址导入文件">3. 使用相对地址导入文件</h2>
+<li><p>ScipyDIRECT (document, <a href="https://github.com/andim/scipydirect">github</a>)</p></li>
 
-<p>使用<code>..</code>表示包含当前文件夹的上一级文件夹，所以<code>Folder1</code>是当前文件夹，<code>Folder2</code>是当前文件夹的下一级文件夹。</p>
-
-<pre><code>load(fullfile('..', 'Folder1', 'Folder2', files.name));
-</code></pre>
+<li><p>Pyomo (<a href="http://www.pyomo.org/documentation">document</a>, <a href="https://github.com/Pyomo/pyomo">github</a>)</p></li>
+</ul>
 
     </div>
   </article>
@@ -95,9 +91,9 @@ end
   <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'woodhexo';
-    var disqus_identifier = '\/2017\/06\/matlab-tricks\/';
-    var disqus_title = 'Matlab使用技巧（都是血汗的积累）';
-    var disqus_url = '\/2017\/06\/matlab-tricks\/';
+    var disqus_identifier = '\/2017\/07\/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%89%E7%94%A8%E7%9A%84python-packages\/';
+    var disqus_title = '科学计算有用的Python packages';
+    var disqus_url = '\/2017\/07\/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%89%E7%94%A8%E7%9A%84python-packages\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
