@@ -4,6 +4,7 @@ title = "A place for wood"
 theme = "hugo-lithium-theme"
 googleAnalytics = "UA-96029152-1"
 disqusShortname = "woodhexo"
+pygmentsuseclasses = true
 
 [permalinks]
     post = "/:year/:month/:slug/"
