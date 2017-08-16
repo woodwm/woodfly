@@ -1,6 +1,6 @@
 +++
 categories = []
-date = "2017-08-02T16:06:50+00:00"
+date = "2017-08-02T16:06:50Z"
 slug = ""
 tags = []
 title = "Latex相关"
@@ -11,8 +11,7 @@ Latex相关的代码块，一不小心就容易忘掉，虽然还是能通过搜
 # 1. 
 ![](/uploads/2017/08/02/K7prR.png)
 
-{{% highlight latex %}}
-
+```latex
 \documentclass{article}
 \usepackage{subcaption}
 \usepackage{graphicx}
@@ -43,4 +42,4 @@ Latex相关的代码块，一不小心就容易忘掉，虽然还是能通过搜
 
 \end{document}
 
-{{% /highlight %}}
+```
