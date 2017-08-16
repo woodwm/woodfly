@@ -11,7 +11,7 @@ Latex相关的代码块，一不小心就容易忘掉，虽然还是能通过搜
 # 1. 
 ![](/uploads/2017/08/02/K7prR.png)
 
-```Latex
+```
 \documentclass{article}
 \usepackage{subcaption}
 \usepackage{graphicx}
