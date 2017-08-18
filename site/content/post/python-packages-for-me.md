@@ -28,6 +28,6 @@ title = "科学计算有用的Python packages"
 
 * [NLOPT](http://ab-initio.mit.edu/wiki/index.php/NLopt): has a bunch of optimizers plus python bindings
 
-* pagmo: parallel optimization includes python bindings and has SciPy, SNOPT, and IPOPT connections https://github.com/esa/pagmo
+* [pagmo](https://github.com/esa/pagmo2): parallel optimization includes python bindings and has SciPy, SNOPT, and IPOPT connections
 
 * Nice SO question on NLP in Python: [Is there a high quality nonlinear programming solver for Python?](https://scicomp.stackexchange.com/questions/83/is-there-a-high-quality-nonlinear-programming-solver-for-python)
