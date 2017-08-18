@@ -19,41 +19,79 @@
 
 &lt;p&gt;Latex相关的代码块，一不小心就容易忘掉，虽然还是能通过搜索找到合适的解决方法，还是自己总结一下自己常用的比较好。&lt;/p&gt;
 
-&lt;h1 id=&#34;1&#34;&gt;1.&lt;/h1&gt;
+&lt;h1 id=&#34;1-多个图合并为一个子图&#34;&gt;1. 多个图合并为一个子图&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;/uploads/2017/08/02/K7prR.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;f1   f2   f3
+     (a)
+f4   f5   f6
+     (b)&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&amp;lt;p&amp;gt;&lt;span class=&#34;k&#34;&gt;\documentclass&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;article&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;\usepackage&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;subcaption&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;\usepackage&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;graphicx&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&amp;lt;/p&amp;gt;
+&lt;pre&gt;&lt;code&gt;\documentclass{article}
+\usepackage{subcaption}
+\usepackage{graphicx}
 
-&amp;lt;p&amp;gt;&lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;document&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&amp;lt;/p&amp;gt;
+\begin{document}
 
-&amp;lt;p&amp;gt;&lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;figure&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;subfigure&lt;span class=&#34;nb&#34;&gt;}{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\linewidth&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-a&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\hfill&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-a&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\hfill&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-a&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\caption&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;subfigure&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\par\medskip&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;subfigure&lt;span class=&#34;nb&#34;&gt;}{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\linewidth&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-b&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\hfill&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-b&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\hfill&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-b&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\caption&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;subfigure&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\par\medskip&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;subfigure&lt;span class=&#34;nb&#34;&gt;}{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\linewidth&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-c&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\hfill&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-c&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;\hfill&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\includegraphics&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;[width=.3\linewidth]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;example-image-c&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\caption&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;subfigure&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-  &lt;span class=&#34;k&#34;&gt;\caption&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;Some grouped images&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;figure&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&amp;lt;/p&amp;gt;
+\begin{figure}
+  \begin{subfigure}{\linewidth}
+  \includegraphics[width=.3\linewidth]{example-image-a}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-a}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-a}
+  \caption{}
+  \end{subfigure}\par\medskip
+  \begin{subfigure}{\linewidth}
+  \includegraphics[width=.3\linewidth]{example-image-b}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-b}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-b}
+  \caption{}
+  \end{subfigure}\par\medskip
+  \begin{subfigure}{\linewidth}
+  \includegraphics[width=.3\linewidth]{example-image-c}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-c}\hfill
+  \includegraphics[width=.3\linewidth]{example-image-c}
+  \caption{}
+  \end{subfigure}
+  \caption{Some grouped images}
+\end{figure}
 
-&amp;lt;p&amp;gt;&lt;span class=&#34;k&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{&lt;/span&gt;document&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+\end{document}
 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;2-子图排列在不同页&#34;&gt;2. 子图排列在不同页&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;\begin{figure}[htb]
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \includegraphics[width=0.6\textwidth]{example-image}
+        \subcaption{$Q^{*}$ values for arm 1}
+        \label{fig:arm1}
+    \end{subfigure}
+%
+    \begin{subfigure}[b]{\textwidth}
+        \includegraphics[width=0.6\textwidth]{example-image}
+        \subcaption{$Q^{*}$ values for arm 2}
+        \label{fig:arm2}
+    \end{subfigure}
+    \caption{$Q^{*}$ values for different arms}
+\end{figure}
+\begin{figure}[htb]\ContinuedFloat
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \includegraphics[width=0.6\textwidth]{example-image}
+        \subcaption{$Q^{*}$ values for arm 3}
+        \label{fig:arm3}
+    \end{subfigure}
+%
+    \begin{subfigure}[b]{\textwidth}
+        \includegraphics[width=0.6\textwidth]{example-image}
+        \subcaption{$Q^{*}$ values for arm 4}
+        \label{fig:arm4}
+    \end{subfigure}
+    \caption{$Q^{*}$ values for different arms (cont.)}
+    \label{fig:arms}
+\end{figure}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -113,7 +151,7 @@
 
 &lt;p&gt;如，par1 = 1.0，par2 = 2.0，得到的结果为数组arr_t则可设置输出文件名&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;filenm = [&#39;ex_p1_&#39; num2str(par1) &#39;_p2&#39; num2str(par2) &#39;.mat&#39;];
+&lt;pre&gt;&lt;code&gt;filenm = [&#39;ex_p1_&#39; num2str(par1) &#39;_p2&#39; num2str(par2) &#39;.mat&#39;];
 save(filenm,   &#39;arr_t&#39;);
 &lt;/code&gt;&lt;/pre&gt;
 

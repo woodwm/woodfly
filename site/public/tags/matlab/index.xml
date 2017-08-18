@@ -20,7 +20,7 @@
 
 &lt;p&gt;如，par1 = 1.0，par2 = 2.0，得到的结果为数组arr_t则可设置输出文件名&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;filenm = [&#39;ex_p1_&#39; num2str(par1) &#39;_p2&#39; num2str(par2) &#39;.mat&#39;];
+&lt;pre&gt;&lt;code&gt;filenm = [&#39;ex_p1_&#39; num2str(par1) &#39;_p2&#39; num2str(par2) &#39;.mat&#39;];
 save(filenm,   &#39;arr_t&#39;);
 &lt;/code&gt;&lt;/pre&gt;
 
