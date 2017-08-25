@@ -1,10 +1,9 @@
 +++
-categories = []
+title = "Latex问题和解决方法"
 date = "2017-08-02T16:06:50Z"
-slug = ""
+slug = "latex-codes"
+categories = []
 tags = []
-title = "Latex相关"
-
 +++
 Latex相关的代码块，一不小心就容易忘掉，虽然还是能通过搜索找到合适的解决方法，还是自己总结一下自己常用的比较好。
 

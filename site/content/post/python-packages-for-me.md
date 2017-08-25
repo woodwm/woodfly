@@ -1,10 +1,9 @@
 +++
-categories = []
-date = "2017-07-17T00:46:01Z"
-slug = ""
-tags = []
 title = "科学计算有用的Python packages"
-
+date = "2017-07-17T00:46:01Z"
+slug = "python-packages"
+categories = []
+tags = []
 +++
 ## Basic
 

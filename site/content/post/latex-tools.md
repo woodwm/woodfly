@@ -1,10 +1,9 @@
 +++
-categories = []
+title = "Latex tools"
 date = "2017-08-02T16:06:50Z"
-slug = ""
+slug = "latex-tools"
+categories = []
 tags = []
-title = "Latex相关"
-
 +++
 
 Latex is good and with the help of some useful tools and websites, it will be better.
