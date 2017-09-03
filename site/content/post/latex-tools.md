@@ -1,6 +1,6 @@
 +++
 title = "Latex tools"
-date = "2017-08-02T16:06:50Z"
+date = "2017-08-25T16:06:50Z"
 slug = "latex-tools"
 categories = []
 tags = []
