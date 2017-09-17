@@ -1,19 +1,19 @@
 +++
-categories = ""
+title = "文献管理软件Zotero常用设置"
 date = "2017-03-18T17:14:03Z"
 slug = "zotero-settings"
+categories = ""
 tags = ["软件推荐"]
-title = "文献管理软件Zotero常用设置"
 +++
 [Zotero](https://www.zotero.org/)是我目前最喜欢的一款免费开源的文献管理软件，有Firefox插件版，也有Windows的独立版，据官方论坛介绍，以后会有其他平台的独立版出来。
 
 ## 必备插件
 
-Zotero Better Bib(La)Tex
+[Zotero Better Bib(La)Tex](https://github.com/retorquere/zotero-better-bibtex)
 
-Zotero Scholar Citations
+[Zotero Scholar Citations](https://github.com/beloglazov/zotero-scholar-citations)
 
-ZotFile
+[ZotFile](http://zotfile.com/)
 
 ## Zotero设置
 
