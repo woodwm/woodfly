@@ -1,0 +1,29 @@
+---
+pages:
+- post/python-packages-for-me.md
+- post/latex.md
+- post/website.md
+- post/a-new-person.md
+hide_body: false
+fields:
+- name: title
+  type: text
+  description: ''
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+- name: tags
+  default: 
+  label: Tags
+  type: tag_list
+  hidden: false
+- name: categories
+  default: 
+  label: Categories
+  type: tag_list
+  hidden: false
+- type: textarea
+  name: slug
+  description: Similar to title, but may show in the url
+  label: Slug

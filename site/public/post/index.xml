@@ -6,15 +6,70 @@
     <description>Recent content in Posts on A place for wood</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 02 Aug 2017 16:06:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Sep 2017 17:14:03 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Latex相关</title>
-      <link>/2017/08/latex%E7%9B%B8%E5%85%B3/</link>
+      <title>访问国外网站的技巧</title>
+      <link>/2017/09/useful-extensions/</link>
+      <pubDate>Sat, 16 Sep 2017 17:14:03 +0000</pubDate>
+      
+      <guid>/2017/09/useful-extensions/</guid>
+      <description>
+
+&lt;h2 id=&#34;decentraleyes-https-github-com-synzvato-decentraleyes&#34;&gt;&lt;a href=&#34;https://github.com/Synzvato/decentraleyes&#34;&gt;Decentraleyes&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;一个浏览器扩展，用于重定向部分网站使用的CDN的js，尤其是Google的，可加速国外网站访问速度。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python的一些经验</title>
+      <link>/2017/09/python-tips/</link>
+      <pubDate>Sat, 02 Sep 2017 00:46:01 +0000</pubDate>
+      
+      <guid>/2017/09/python-tips/</guid>
+      <description>
+
+&lt;h2 id=&#34;numba不支持-dict-可用-namedtuples-代替&#34;&gt;numba不支持&lt;code&gt;dict&lt;/code&gt;,可用&lt;code&gt;namedtuples&lt;/code&gt;代替&lt;/h2&gt;
+
+&lt;p&gt;numba does not support &lt;code&gt;dict&lt;/code&gt; type. A good way to replace it is using &lt;code&gt;namedtuples&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+from collections import namedtuple
+
+conf = namedtuple(&#39;conf&#39;, [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;])
+func(conf(1, 2.0, np.array([1,2,3], dtype=np.int64)))
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Latex tools</title>
+      <link>/2017/08/latex-tools/</link>
+      <pubDate>Fri, 25 Aug 2017 16:06:50 +0000</pubDate>
+      
+      <guid>/2017/08/latex-tools/</guid>
+      <description>
+
+&lt;p&gt;Latex is good and with the help of some useful tools and websites, it will be better.&lt;/p&gt;
+
+&lt;h1 id=&#34;sharelatex-https-www-sharelatex-com&#34;&gt;&lt;a href=&#34;https://www.sharelatex.com&#34;&gt;ShareLatex&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;I think it is the best online Latex website, nice and easy to use.&lt;/p&gt;
+
+&lt;h1 id=&#34;tabel-generator-http-www-tablesgenerator-com&#34;&gt;&lt;a href=&#34;http://www.tablesgenerator.com/&#34;&gt;Tabel generator&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;A online website that makes inserting tables with the data from Excel or CSV file easier.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Latex问题和解决方法</title>
+      <link>/2017/08/latex-codes/</link>
       <pubDate>Wed, 02 Aug 2017 16:06:50 +0000</pubDate>
       
-      <guid>/2017/08/latex%E7%9B%B8%E5%85%B3/</guid>
+      <guid>/2017/08/latex-codes/</guid>
       <description>
 
 &lt;p&gt;Latex相关的代码块，一不小心就容易忘掉，虽然还是能通过搜索找到合适的解决方法，还是自己总结一下自己常用的比较好。&lt;/p&gt;
@@ -97,10 +152,10 @@ f4   f5   f6
     
     <item>
       <title>科学计算有用的Python packages</title>
-      <link>/2017/07/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%89%E7%94%A8%E7%9A%84python-packages/</link>
+      <link>/2017/07/python-packages/</link>
       <pubDate>Mon, 17 Jul 2017 00:46:01 +0000</pubDate>
       
-      <guid>/2017/07/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%89%E7%94%A8%E7%9A%84python-packages/</guid>
+      <guid>/2017/07/python-packages/</guid>
       <description>
 
 &lt;h2 id=&#34;basic&#34;&gt;Basic&lt;/h2&gt;
@@ -118,21 +173,29 @@ f4   f5   f6
 &lt;h2 id=&#34;optimization&#34;&gt;Optimization&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;CVXPY (&lt;a href=&#34;http://www.cvxpy.org/en/latest/tutorial/index.html&#34;&gt;document&lt;/a&gt;, &lt;a href=&#34;https://github.com/cvxgrp/cvxpy&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CVXPY ( &lt;a href=&#34;http://www.cvxpy.org/en/latest/tutorial/index.html&#34;&gt;document&lt;/a&gt;, &lt;a href=&#34;https://github.com/cvxgrp/cvxpy&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;ScipyDIRECT (document, &lt;a href=&#34;https://github.com/andim/scipydirect&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ScipyDIRECT ([document](), &lt;a href=&#34;https://github.com/andim/scipydirect&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Pyomo (&lt;a href=&#34;http://www.pyomo.org/documentation&#34;&gt;document&lt;/a&gt;, &lt;a href=&#34;https://github.com/Pyomo/pyomo&#34;&gt;github&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/casadi/casadi/&#34;&gt;Casadi&lt;/a&gt; is a symbolic framework for numerica optimization with automatic differentiation, has python bindings and includes Ipopt&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://ab-initio.mit.edu/wiki/index.php/NLopt&#34;&gt;NLOPT&lt;/a&gt;: has a bunch of optimizers plus python bindings&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/esa/pagmo2&#34;&gt;pagmo&lt;/a&gt;: parallel optimization includes python bindings and has SciPy, SNOPT, and IPOPT connections&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Nice SO question on NLP in Python: &lt;a href=&#34;https://scicomp.stackexchange.com/questions/83/is-there-a-high-quality-nonlinear-programming-solver-for-python&#34;&gt;Is there a high quality nonlinear programming solver for Python?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>有趣的网站，也可能有用哦</title>
-      <link>/2017/06/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%BD%91%E7%AB%99%E4%B9%9F%E5%8F%AF%E8%83%BD%E6%9C%89%E7%94%A8%E5%93%A6/</link>
+      <link>/2017/06/useful-interesting-websites/</link>
       <pubDate>Mon, 26 Jun 2017 00:52:42 +0000</pubDate>
       
-      <guid>/2017/06/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%BD%91%E7%AB%99%E4%B9%9F%E5%8F%AF%E8%83%BD%E6%9C%89%E7%94%A8%E5%93%A6/</guid>
+      <guid>/2017/06/useful-interesting-websites/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://clippingmagic.com&#34;&gt;https://clippingmagic.com&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;去除图片背景，智能抠图&lt;/p&gt;
@@ -223,11 +286,11 @@ end
 
 &lt;h2 id=&#34;必备插件&#34;&gt;必备插件&lt;/h2&gt;
 
-&lt;p&gt;Zotero Better Bib(La)Tex&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/retorquere/zotero-better-bibtex&#34;&gt;Zotero Better Bib(La)Tex&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Zotero Scholar Citations&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/beloglazov/zotero-scholar-citations&#34;&gt;Zotero Scholar Citations&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;ZotFile&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://zotfile.com/&#34;&gt;ZotFile&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;zotero设置&#34;&gt;Zotero设置&lt;/h2&gt;
 

@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.19" />
 
 
-<title>Latex相关 - A place for wood</title>
-<meta property="og:title" content="Latex相关 - A place for wood">
+<title>访问国外网站的技巧 - A place for wood</title>
+<meta property="og:title" content="访问国外网站的技巧 - A place for wood">
 
 
 
@@ -57,90 +57,18 @@
     <span class="article-duration">1 min read</span>
     
 
-    <h1 class="article-title">Latex相关</h1>
+    <h1 class="article-title">访问国外网站的技巧</h1>
 
     
-    <span class="article-date">August 2, 2017</span>
+    <span class="article-date">September 16, 2017</span>
     
 
     <div class="article-content">
       
 
-<p>Latex相关的代码块，一不小心就容易忘掉，虽然还是能通过搜索找到合适的解决方法，还是自己总结一下自己常用的比较好。</p>
+<h2 id="decentraleyes-https-github-com-synzvato-decentraleyes"><a href="https://github.com/Synzvato/decentraleyes">Decentraleyes</a></h2>
 
-<h1 id="1-多个图合并为一个子图">1. 多个图合并为一个子图</h1>
-
-<p>f1   f2   f3
-     (a)
-f4   f5   f6
-     (b)</p>
-
-<pre><code>\documentclass{article}
-\usepackage{subcaption}
-\usepackage{graphicx}
-
-\begin{document}
-
-\begin{figure}
-  \begin{subfigure}{\linewidth}
-  \includegraphics[width=.3\linewidth]{example-image-a}\hfill
-  \includegraphics[width=.3\linewidth]{example-image-a}\hfill
-  \includegraphics[width=.3\linewidth]{example-image-a}
-  \caption{}
-  \end{subfigure}\par\medskip
-  \begin{subfigure}{\linewidth}
-  \includegraphics[width=.3\linewidth]{example-image-b}\hfill
-  \includegraphics[width=.3\linewidth]{example-image-b}\hfill
-  \includegraphics[width=.3\linewidth]{example-image-b}
-  \caption{}
-  \end{subfigure}\par\medskip
-  \begin{subfigure}{\linewidth}
-  \includegraphics[width=.3\linewidth]{example-image-c}\hfill
-  \includegraphics[width=.3\linewidth]{example-image-c}\hfill
-  \includegraphics[width=.3\linewidth]{example-image-c}
-  \caption{}
-  \end{subfigure}
-  \caption{Some grouped images}
-\end{figure}
-
-\end{document}
-
-</code></pre>
-
-<h1 id="2-子图排列在不同页">2. 子图排列在不同页</h1>
-
-<pre><code>\begin{figure}[htb]
-    \centering
-    \begin{subfigure}[b]{\textwidth}
-        \includegraphics[width=0.6\textwidth]{example-image}
-        \subcaption{$Q^{*}$ values for arm 1}
-        \label{fig:arm1}
-    \end{subfigure}
-%
-    \begin{subfigure}[b]{\textwidth}
-        \includegraphics[width=0.6\textwidth]{example-image}
-        \subcaption{$Q^{*}$ values for arm 2}
-        \label{fig:arm2}
-    \end{subfigure}
-    \caption{$Q^{*}$ values for different arms}
-\end{figure}
-\begin{figure}[htb]\ContinuedFloat
-    \centering
-    \begin{subfigure}[b]{\textwidth}
-        \includegraphics[width=0.6\textwidth]{example-image}
-        \subcaption{$Q^{*}$ values for arm 3}
-        \label{fig:arm3}
-    \end{subfigure}
-%
-    \begin{subfigure}[b]{\textwidth}
-        \includegraphics[width=0.6\textwidth]{example-image}
-        \subcaption{$Q^{*}$ values for arm 4}
-        \label{fig:arm4}
-    \end{subfigure}
-    \caption{$Q^{*}$ values for different arms (cont.)}
-    \label{fig:arms}
-\end{figure}
-</code></pre>
+<p>一个浏览器扩展，用于重定向部分网站使用的CDN的js，尤其是Google的，可加速国外网站访问速度。</p>
 
     </div>
   </article>
@@ -148,9 +76,9 @@ f4   f5   f6
   <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'woodhexo';
-    var disqus_identifier = '\/2017\/08\/latex%E7%9B%B8%E5%85%B3\/';
-    var disqus_title = 'Latex相关';
-    var disqus_url = '\/2017\/08\/latex%E7%9B%B8%E5%85%B3\/';
+    var disqus_identifier = '\/2017\/09\/useful-extensions\/';
+    var disqus_title = '访问国外网站的技巧';
+    var disqus_url = '\/2017\/09\/useful-extensions\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

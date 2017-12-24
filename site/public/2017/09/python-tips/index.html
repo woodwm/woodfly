@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.19" />
 
 
-<title>文献管理软件Zotero常用设置 - A place for wood</title>
-<meta property="og:title" content="文献管理软件Zotero常用设置 - A place for wood">
+<title>Python的一些经验 - A place for wood</title>
+<meta property="og:title" content="Python的一些经验 - A place for wood">
 
 
 
@@ -57,34 +57,25 @@
     <span class="article-duration">1 min read</span>
     
 
-    <h1 class="article-title">文献管理软件Zotero常用设置</h1>
+    <h1 class="article-title">Python的一些经验</h1>
 
     
-    <span class="article-date">March 18, 2017</span>
+    <span class="article-date">September 2, 2017</span>
     
 
     <div class="article-content">
       
 
-<p><a href="https://www.zotero.org/">Zotero</a>是我目前最喜欢的一款免费开源的文献管理软件，有Firefox插件版，也有Windows的独立版，据官方论坛介绍，以后会有其他平台的独立版出来。</p>
+<h2 id="numba不支持-dict-可用-namedtuples-代替">numba不支持<code>dict</code>,可用<code>namedtuples</code>代替</h2>
 
-<h2 id="必备插件">必备插件</h2>
+<p>numba does not support <code>dict</code> type. A good way to replace it is using <code>namedtuples</code></p>
 
-<p><a href="https://github.com/retorquere/zotero-better-bibtex">Zotero Better Bib(La)Tex</a></p>
+<pre><code class="language-python">import numpy as np
+from collections import namedtuple
 
-<p><a href="https://github.com/beloglazov/zotero-scholar-citations">Zotero Scholar Citations</a></p>
-
-<p><a href="http://zotfile.com/">ZotFile</a></p>
-
-<h2 id="zotero设置">Zotero设置</h2>
-
-<p>General：取消Automatically take snapshots when creating items from web pages</p>
-
-<p>取消Automatically tag items with keywords and subject headings</p>
-
-<p>Sync: 中File Syncing选择WebDAV, URL: <a href="https://dav.box.com/dav">https://dav.box.com/dav</a></p>
-
-<p>Better BibTex设置：Citation Key format [auth:lower][year][Title:skipwords:select,1,1]</p>
+conf = namedtuple('conf', ['a', 'b', 'c'])
+func(conf(1, 2.0, np.array([1,2,3], dtype=np.int64)))
+</code></pre>
 
     </div>
   </article>
@@ -92,9 +83,9 @@
   <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'woodhexo';
-    var disqus_identifier = '\/2017\/03\/zotero-settings\/';
-    var disqus_title = '文献管理软件Zotero常用设置';
-    var disqus_url = '\/2017\/03\/zotero-settings\/';
+    var disqus_identifier = '\/2017\/09\/python-tips\/';
+    var disqus_title = 'Python的一些经验';
+    var disqus_url = '\/2017\/09\/python-tips\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
