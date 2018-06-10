@@ -1,12 +1,6 @@
 ---
-pages:
-- post/macbook-power-sleep.md
-- post/after-a-long-time.md
-- post/python-packages-for-me.md
-- post/latex.md
-- post/website.md
-- post/a-new-person.md
 hide_body: false
+is_partial: false
 fields:
 - name: title
   type: text
@@ -29,3 +23,10 @@ fields:
   name: slug
   description: Similar to title, but may show in the url
   label: Slug
+pages:
+- post/macbook-power-sleep.md
+- post/after-a-long-time.md
+- post/python-packages-for-me.md
+- post/latex.md
+- post/website.md
+- post/a-new-person.md
