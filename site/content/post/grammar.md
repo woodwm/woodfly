@@ -7,4 +7,4 @@ tags = []
 title = "grammar"
 
 +++
-1. `let`后的动词不加\``o\``
+1. `let`后的动词不加`to`
