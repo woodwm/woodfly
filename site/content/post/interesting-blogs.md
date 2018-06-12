@@ -14,3 +14,8 @@ interesting posts:
 
 1. [Analyzing 1.1 Billion NYC Taxi and Uber Trips, with a Vengeance](http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/ "Analyzing 1.1 Billion NYC Taxi and Uber Trips, with a Vengeance")
 2. [Code in Github](https://github.com/toddwschneider/nyc-taxi-data)
+
+## [Suprageography](http://oobrien.com/ "Suprageography")
+
+CDRC
+
