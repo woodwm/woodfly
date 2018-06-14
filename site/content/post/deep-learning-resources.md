@@ -7,3 +7,6 @@ tags = []
 title = "Deep learning resources"
 
 +++
+## [Model Zoo](https://modelzoo.co)
+
+Popular deep learning framworks and models.
