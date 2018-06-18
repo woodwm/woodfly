@@ -16,5 +16,5 @@ fields:
 - name: slug
   type: textarea
 pages:
-- post/matlab.md
-- post/export-pdf-eps-in-matlab.md
+- site/content/post/matlab.md
+- site/content/post/export-pdf-eps-in-matlab.md
