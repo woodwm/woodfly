@@ -7,4 +7,4 @@ tags = []
 title = "Mac apps"
 
 +++
-[Cakebrew](https://github.com/brunophilipe/Cakebrew)
+- [Cakebrew](https://github.com/brunophilipe/Cakebrew) Homebrew GUI App
