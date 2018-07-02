@@ -24,6 +24,7 @@ fields:
   description: Similar to title, but may show in the url
   label: Slug
 pages:
+- site/content/post/mac-apps.md
 - site/content/post/grammar.md
 - site/content/post/macbook-power-sleep.md
 - site/content/post/after-a-long-time.md
