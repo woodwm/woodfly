@@ -24,14 +24,14 @@ fields:
   description: Similar to title, but may show in the url
   label: Slug
 pages:
-- site/content/post/mac-apps.md
 - site/content/post/grammar.md
-- site/content/post/macbook-power-sleep.md
-- site/content/post/after-a-long-time.md
-- site/content/post/latex.md
-- site/content/post/python-packages-for-me.md
+- site/content/post/mac-apps.md
 - site/content/post/website.md
-- site/content/post/interesting-data-about-urban-transport.md
-- site/content/post/a-new-person.md
-- site/content/post/deep-learning-resources.md
+- site/content/post/python-packages-for-me.md
+- site/content/post/latex.md
+- site/content/post/after-a-long-time.md
 - site/content/post/interesting-blogs.md
+- site/content/post/deep-learning-resources.md
+- site/content/post/macbook-power-sleep.md
+- site/content/post/a-new-person.md
+- site/content/post/interesting-data-about-urban-transport.md
