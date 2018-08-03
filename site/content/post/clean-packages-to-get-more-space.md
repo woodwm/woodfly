@@ -13,3 +13,9 @@ I am happy using `anaconda` and `conda` to manage the python packages. After a l
 
 Remove index cache, tarballs, unused cache packages
 `conda clean --all`
+
+## Julia
+
+In Julia 0.7, press `]` to enter the `Pkg` mode and use the command
+
+`gc`
