@@ -17,5 +17,6 @@ fields:
 - name: slug
   type: textarea
 pages:
+- site/content/post/webdav-cloud-service.md
 - site/content/post/export-pdf-eps-in-matlab.md
 - site/content/post/matlab.md
