@@ -6,16 +6,21 @@ tags = []
 title = "WebDav cloud service"
 
 +++
-
 ## [Yandex disk](https://disk.yandex.com)
 
-free space: 10 Gb
+free space: 10 GB
 
 WebDav: https://webdav.yandex.com
 
 
 ## [TeraCloud](https://teracloud.jp)
 
-free space: 10 Gb + 5Gb (refering)
+free space: 10 GB + 5GB (referral)
 
 WebDav: https://yura.teracloud.jp/dav/
+
+## [MagentaCLOUD](https://www.magentacloud.de)
+
+free space: 10 GB
+
+WebDav: https://webdav.magentacloud.de
