@@ -13,6 +13,9 @@ title = "Julia-utilies"
 Add the path of python in this computer to avoid downloading MiniConda automatically by `Conda.jl`
 
     ENV["JUPYTER"]="C:\Users\joywm\AppData\Local\Anaconda3\python.exe"
-    
-### 
- 
+
+### IJulia.jl
+
+Use `where jupyter` in the Anaconda cmd to show the path of jupyter. Then set the path of jupyter for IJulia.
+
+    ENV["JUPYTER"]="C:\Users\joywm\AppData\Local\Anaconda3\Scripts\jupyter.exe"
