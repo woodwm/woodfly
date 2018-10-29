@@ -17,6 +17,7 @@ fields:
 - name: slug
   type: textarea
 pages:
+- site/content/post/use-pandoc-to-convert-latex-to-word.md
 - site/content/post/webdav-cloud-service.md
 - site/content/post/matlab.md
 - site/content/post/export-pdf-eps-in-matlab.md
