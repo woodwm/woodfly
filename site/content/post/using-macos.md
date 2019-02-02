@@ -1,7 +1,6 @@
 +++
 categories = []
 date = "2019-02-01T16:00:00+00:00"
-draft = true
 slug = ""
 tags = []
 title = "Using macOS"
