@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "zh-CN"
 title = "A place for wood"
-theme = "hugo-lithium-theme"
+theme = "hugo-future-imperfect"
 googleAnalytics = "UA-96029152-1"
 disqusShortname = "woodhexo"
 pygmentsuseclasses = true
