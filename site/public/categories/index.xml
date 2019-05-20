@@ -9,20 +9,6 @@
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>访问国外网站的技巧</title>
-      <link>/2017/09/useful-extensions/</link>
-      <pubDate>Sat, 16 Sep 2017 17:14:03 +0000</pubDate>
-      
-      <guid>/2017/09/useful-extensions/</guid>
-      <description>
-
-&lt;h2 id=&#34;decentraleyes-https-github-com-synzvato-decentraleyes&#34;&gt;&lt;a href=&#34;https://github.com/Synzvato/decentraleyes&#34;&gt;Decentraleyes&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;一个浏览器扩展，用于重定向部分网站使用的CDN的js，尤其是Google的，可加速国外网站访问速度。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Matlab作图生成pdf, eps，插入Latex</title>
       <link>/2017/03/plotting-with-matlab/</link>
       <pubDate>Sat, 18 Mar 2017 17:23:16 +0000</pubDate>
@@ -54,11 +40,11 @@
 
 &lt;h2 id=&#34;必备插件&#34;&gt;必备插件&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/retorquere/zotero-better-bibtex&#34;&gt;Zotero Better Bib(La)Tex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Zotero Better Bib(La)Tex&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/beloglazov/zotero-scholar-citations&#34;&gt;Zotero Scholar Citations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Zotero Scholar Citations&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://zotfile.com/&#34;&gt;ZotFile&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ZotFile&lt;/p&gt;
 
 &lt;h2 id=&#34;zotero设置&#34;&gt;Zotero设置&lt;/h2&gt;
 
