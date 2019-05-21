@@ -1,6 +1,6 @@
 [build]
   command = "yarn build"
-  publish = "dist"
+  publish = "public"
 [build.environment]
   NODE_VERSION = "10.15.3"
   YARN_VERSION = "1.9.4"
