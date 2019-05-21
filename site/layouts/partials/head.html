@@ -1,34 +1,27 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-{{ .Hugo.Generator }}
+<head>
 
-{{ if eq .URL "/" }}
-<title>{{ .Title }}</title>
-<meta property="og:title" content="{{ .Title }}">
-<meta property="og:type" content="website">
-{{ else }}
-<title>{{ .Title }} - {{ .Site.Title }}</title>
-<meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
-{{ end }}
+	<title>{{ .Title }} | Kaldi</title>
+	<link rel="stylesheet" href="/css/main.css" />
 
-{{ if eq .URL "/" }}
-<meta property="description" content="{{ .Site.Params.description }}">
-{{ else }}
-  {{ if .Description }}
-  <meta property="description" content="{{ .Description }}">
-  {{ end }}
-{{ end }}
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{{ if .Keywords }}
-<meta property="keywords" content ="{{ delimit .Keywords ", " }}">
-{{ end }}
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
 
-{{ if .RSSLink }}
-<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-{{ end }}
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
+	<meta name="theme-color" content="#fff">
 
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" media="all">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+	<!-- Open Graph -->
+	<meta property="og:type" content="business.business">
+	<meta property="og:title" content="Kaldi | Great coffee with a conscience">
+	<meta property="og:url" content="/">
+	<meta property="og:image" content="/img/og-image.jpg">
+
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>

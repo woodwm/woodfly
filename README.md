@@ -1,77 +1,46 @@
-# Victor Hugo
+# Hugo template for Netlify CMS with Netlify Identity
 
-**A [Hugo](http://gohugo.io/) boilerplate for creating truly epic websites**
+This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
 
-This is a boilerplate for using Hugo as a static site generator and Gulp + Weback as your
-asset pipeline.
+## Getting started
 
-It's setup to use post-css and babel for CSS and JavaScript.
+Use our deploy button to get your own copy of the repository. 
 
-## Usage
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
 
-Clone this repository and run:
+This will setup everything needed for running the CMS:
 
-```bash
-npm install
-npm start
+* A new repository in your GitHub account with the code
+* Full Continuous Deployment to Netlify's global CDN network
+* Control users and access with Netlify Identity
+* Manage content with Netlify CMS
+
+Once the initial build finishes, you can invite yourself as a user. Go to the Identity tab in your new site, click "Invite" and send yourself an invite.
+
+Now you're all set, and you can start editing content!
+
+## Local Development
+
+Clone this repository, and run `yarn` or `npm install` from the new folder to install all required dependencies.
+
+Then start the development server with `yarn start` or `npm start`.
+
+## Layouts
+
+The template is based on small, content-agnostic partials that can be mixed and matched. The pre-built pages showcase just a few of the possible combinations. Refer to the `site/layouts/partials` folder for all available partials.
+
+Use Hugo’s `dict` functionality to feed content into partials and avoid repeating yourself and creating discrepancies.
+
+## CSS
+
+The template uses a custom fork of Tachyons and PostCSS with cssnext and cssnano. To customize the template for your brand, refer to `src/css/imports/_variables.css` where most of the important global variables like colors and spacing are stored.
+
+## SVG
+
+All SVG icons stored in `site/static/img/icons` are automatically optimized with SVGO (gulp-svgmin) and concatenated into a single SVG sprite stored as a a partial called `svg.html`. Make sure you use consistent icons in terms of viewport and art direction for optimal results. Refer to an SVG via the `<use>` tag like so:
+
 ```
-
-Then visit http://localhost:3000/ - BrowserSync will automatically reload CSS or
-refresh the page when stylesheets or content changes.
-
-To build your static output to the `/dist` folder, use:
-
-```bash
-npm run build
+<svg width="16px" height="16px" class="db">
+  <use xlink:href="#SVG-ID"></use>
+</svg>
 ```
-
-## Structure
-
-```
-|--site                // Everything in here will be built with hugo
-|  |--content          // Pages and collections - ask if you need extra pages
-|  |--data             // YAML data files with any data for use in examples
-|  |--layouts          // This is where all templates go
-|  |  |--partials      // This is where includes live
-|  |  |--index.html    // The index page
-|  |--static           // Files in here ends up in the public folder
-|--src                 // Files that will pass through the asset pipeline
-|  |--css              // CSS files in the root of this folder will end up in /css/...
-|  |--js               // app.js will be compiled to /js/app.js with babel
-```
-
-## Basic Concepts
-
-You can read more about Hugo's template language in their documentation here:
-
-https://gohugo.io/templates/overview/
-
-The most useful page there is the one about the available functions:
-
-https://gohugo.io/templates/functions/
-
-For assets that are completely static and don't need to go through the asset pipeline,
-use the `site/static` folder. Images, font-files, etc, all go there.
-
-Files in the static folder ends up in the web root. So a file called `site/static/favicon.ico`
-will end up being available as `/favicon.ico` and so on...
-
-The `src/js/app.js` file is the entrypoint for webpack and will be built to `/dist/app.js`.
-
-You can use ES6 and use both relative imports or import libraries from npm.
-
-Any CSS file directly under the `src/css/` folder will get compiled with [PostCSS Next](http://cssnext.io/)
-to `/dist/css/{filename}.css`. Import statements will be resolved as part of the build
-
-## Deploying to netlify
-
-- Push your clone to your own GitHub repository.
-- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
-
-Now netlify will build and deploy your site whenever you push to git.
-
-##  Enjoy!!
-
-#### License
-
-[MIT](LICENSE)
