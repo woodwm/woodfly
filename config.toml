@@ -152,46 +152,48 @@ canonifyURLs = true
 [social]
   # Coding Communities
   github           = "woodwm/woodfly"
-  gitlab           = ""
+  #gitlab           = ""
   stackoverflow    = "" # User Number
-  bitbucket        = ""
-  jsfiddle         = ""
-  codepen          = ""
+  #bitbucket        = ""
+  #jsfiddle         = ""
+  #codepen          = ""
+  
   # Visual Art Communities
   deviantart       = ""
   flickr           = "example"
   behance          = ""
-  dribbble         = ""
+  #dribbble         = ""
   # Publishing Communities
-  wordpress        = ""
-  medium           = ""
+  #wordpress        = ""
+  #medium           = ""
   # Professional/Business Oriented Communities
-  linkedin         = "example"
-  linkedin_company = "examplebusiness"
-  foursquare       = ""
+  #linkedin         = "example"
+  #linkedin_company = "examplebusiness"
+  #foursquare       = ""
   xing             = ""
   slideshare       = ""
   # Social Networks
-  facebook         = "example"
-  googleplus       = ""
-  reddit           = "example"
-  quora            = ""
-  youtube          = ""
-  vimeo            = ""
-  whatsapp         = "" # WhatsApp Number
+  #facebook         = "example"
+  #googleplus       = ""
+  #reddit           = "example"
+  #quora            = ""
+  # youtube          = ""
+  # vimeo            = ""
+  # whatsapp         = "" # WhatsApp Number
     # WeChat and QQ need testing.
     wechat         = ""
     qq             = "" # User ID Number
-  instagram        = "example"
-  tumblr           = ""
-  twitter          = "example"
-  skype            = ""
-  snapchat         = ""
-  pinterest        = "example"
-  telegram         = "example"
-  vine             = ""
-  googlescholar    = ""
-  orcid            = ""
-  researchgate     = "example"
+  # instagram        = "example"
+  # tumblr           = ""
+  # twitter          = "example"
+  # skype            = ""
+  # snapchat         = ""
+  # pinterest        = "example"
+  # telegram         = "example"
+  # vine             = ""
+  # googlescholar    = ""
+  # orcid            = ""
+  # researchgate     = "example"
+  
   # Email
-  email            = "example"
+  # email            = "example"
