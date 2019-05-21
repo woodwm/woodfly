@@ -4,6 +4,7 @@ date = "2017-08-25T16:06:50Z"
 slug = "latex-tools"
 categories = []
 tags = []
+type = "post"
 +++
 
 Latex is good and with the help of some useful tools and websites, it will be better.

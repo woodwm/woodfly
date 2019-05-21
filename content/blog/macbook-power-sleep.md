@@ -4,8 +4,9 @@ date = "2017-12-24T03:09:22+00:00"
 slug = ""
 tags = []
 title = "Macbook 待机耗电量大"
-
+type = "post"
 +++
+
 （ macOS High Sierra ）
 
 * 蓝牙偏好设置 /高级 /去掉勾选「允许蓝牙设备唤醒这台电脑」

@@ -4,8 +4,9 @@ date = "2018-08-06T13:39:57+01:00"
 slug = "webdav"
 tags = []
 title = "WebDav cloud service"
-
+type = "post"
 +++
+
 ## [Yandex disk](https://disk.yandex.com)
 
 free space: 10 GB

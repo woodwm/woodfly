@@ -4,7 +4,9 @@ date = "2017-07-17T00:46:01Z"
 slug = "python-packages"
 categories = []
 tags = []
+type = "post"
 +++
+
 ## Basic
 
 * Matplotlib ([document](https://matplotlib.org/contents.html), [github](https://github.com/matplotlib/matplotlib))

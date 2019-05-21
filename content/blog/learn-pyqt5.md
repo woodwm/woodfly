@@ -4,8 +4,9 @@ date = "2018-07-22T16:01:36+01:00"
 slug = ""
 tags = []
 title = "Learn PyQT5"
-
+type = "post"
 +++
+
 ## Useful resources for PyQT5
 
 [PyQt5 tutorial](http://zetcode.com/gui/pyqt5/)

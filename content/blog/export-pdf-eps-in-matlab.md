@@ -4,6 +4,7 @@ date = "2017-03-18T17:23:16"
 tags = []
 categories = []
 slug = "plotting-with-matlab"
+type = "post"
 
 +++
 

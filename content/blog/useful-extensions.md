@@ -4,6 +4,7 @@ date = "2017-09-16T17:14:03Z"
 slug = "useful-extensions"
 categories = ""
 tags = ["软件推荐"]
+type = "post"
 +++
 
 ## [Decentraleyes](https://github.com/Synzvato/decentraleyes)

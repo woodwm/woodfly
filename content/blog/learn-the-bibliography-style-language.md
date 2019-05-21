@@ -4,8 +4,9 @@ date = "2019-01-16T06:57:45+00:00"
 slug = ""
 tags = []
 title = "Learn the Bibliography style language"
-
+type = "post"
 +++
+
 There are two main learning resources available.
 
 [Tame the BeaST](http://tug.ctan.org/info/bibtex/tamethebeast/ttb_en.pdf)

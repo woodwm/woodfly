@@ -4,8 +4,9 @@ date = "2018-10-29T23:25:53+00:00"
 slug = ""
 tags = ["latex"]
 title = "use pandoc to convert latex to word"
-
+type = "post"
 +++
+
 目前比较好的一种把latex文件转为word文件的方法是使用`pandoc`,
 
 首先安装`pandoc`和`pandoc-citeproc`:

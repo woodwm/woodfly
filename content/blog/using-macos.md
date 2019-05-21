@@ -4,8 +4,9 @@ date = "2019-02-01T16:00:00+00:00"
 slug = ""
 tags = []
 title = "Using macOS"
-
+type = "post"
 +++
+
 1. restart `mDNSResponder`
 
 Restart `mDNSResponder` may help to solve the network problem after long time running

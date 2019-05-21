@@ -1,10 +1,17 @@
 +++
 title = "文献管理软件Zotero常用设置"
 date = "2017-03-18T17:14:03Z"
+description = ""
 slug = "zotero-settings"
-categories = []
+categories = ["软件推荐"]
+featuredalt = ""
+featuredpath = ""
+linktitle = ""
 tags = ["软件推荐"]
+type = "post"
+
 +++
+
 [Zotero](https://www.zotero.org/)是我目前最喜欢的一款免费开源的文献管理软件，有Firefox插件版，也有Windows的独立版，据官方论坛介绍，以后会有其他平台的独立版出来。
 
 ## 必备插件

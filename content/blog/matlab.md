@@ -4,8 +4,9 @@ date = "2017-06-19T22:24:22Z"
 slug = "matlab-tricks"
 tags = ["Matlab"]
 title = "Matlab使用技巧（都是血汗的积累）"
-
+type = "post"
 +++
+
 ## 1. 动态更改文件名
 
 如，par1 = 1.0，par2 = 2.0，得到的结果为数组arr_t则可设置输出文件名

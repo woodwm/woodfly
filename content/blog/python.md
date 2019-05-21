@@ -4,6 +4,7 @@ date = "2017-09-02T00:46:01Z"
 slug = "python-tips"
 categories = []
 tags = []
+type = "post"
 +++
 
 ## numba不支持`dict`,可用`namedtuples`代替
