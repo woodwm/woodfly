@@ -1,11 +1,11 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "A place for wood"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
-googleAnalytics = ""
+disqusShortname = "woodhexo"
+googleAnalytics = "UA-96029152-1"
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
@@ -15,7 +15,7 @@ canonifyURLs = true
   # Sets the meta tag description
   description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Future Imperfect"
+  navbarTitle          = "Woodfly"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
 
@@ -62,7 +62,7 @@ canonifyURLs = true
 
   # options for highlight.js (version, additional languages, and theme)
   disable_highlight = false # set to true to disable Highlight
-  highlightjsVersion = "9.11.0"
+  highlightjsVersion = "9.15.6"
   highlightjsCDN = "//cdn.bootcss.com"
   highlightjsLang = ["r", "yaml", "css"]
   highlightjsTheme = "github"
@@ -96,11 +96,11 @@ canonifyURLs = true
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "/img/main/logo.png"
     # Sets Image to be a cirlce
-    circle    = false
+    circle    = true
     # Sets Image to be Future Imperfect's hexagon
-    imperfect = true
+    imperfect = false
     width     = ""
     alt       = "Hugo Future Imperfect"
 
@@ -151,7 +151,7 @@ canonifyURLs = true
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github           = "jpescador/hugo-future-imperfect"
+  github           = "woodwm/woodfly"
   gitlab           = ""
   stackoverflow    = "" # User Number
   bitbucket        = ""
