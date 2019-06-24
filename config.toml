@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "A place for wood"
-theme = "hugo-future-imperfect"
+theme = "hugo-paper"
 preserveTaxonomyNames = true
 paginate = 10
 disqusShortname = "woodhexo"
