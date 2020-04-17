@@ -1,19 +1,32 @@
-+++
-categories = []
-date = "2018-08-24T03:24:37+01:00"
-slug = ""
-tags = []
-title = "Julia-utilies"
-type = "post"
-+++
+---
+title: Julia-utilies
+date: '2018-08-24T03:24:37+01:00'
+categories:
+  - Julia
+tags: []
+type: post
+---
 
 ## Install packages
+
+### Path of Python
+
+Show the full path of the currently running Python interpreter.
+```
+import sys
+print(sys.executable)
+```
+
+### Path of R
+```
+file.path(R.home())
+```
 
 ### PyCall
 
 Add the path of python in this computer to avoid downloading MiniConda automatically by `Conda.jl`
 
-    ENV["JUPYTER"]="C:\Users\(your_user_name)\AppData\Local\Anaconda3\python.exe"
+    ENV["PYTHON"]="C:\Users\(your_user_name)\AppData\Local\Anaconda3\python.exe"
 
 ### IJulia.jl
 
